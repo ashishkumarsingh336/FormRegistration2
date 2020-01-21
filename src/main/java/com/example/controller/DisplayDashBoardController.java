@@ -14,7 +14,7 @@ public class DisplayDashBoardController {
       */
      @RequestMapping(value="/dashBoard",method=RequestMethod.GET)
      public String displayDashBoard(Model model) {
-		
+		System.out.priintln("This is display DashBoard");
     	 model.addAttribute("Msg","Hi dear,Welcome to tek leads");
     	 
     	 return "tekLeads";
