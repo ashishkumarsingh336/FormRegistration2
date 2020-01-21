@@ -1,0 +1,12 @@
+Hi,
+ Mr. ${toName}
+ <br>
+ your Registration is Successful...
+ <br>
+ Your temprory password is=${pwd}
+ <br>
+ Click on below hyperlink to active your account.<br>
+ <a href="http://localhost:9191/unlockAcc?email=${signupEmail}">Click Here</a>
+ 
+ 
+ 
